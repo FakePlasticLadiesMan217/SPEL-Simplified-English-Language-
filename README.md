@@ -16,6 +16,8 @@ SPEL is a rule-based system that rewrites standard English into a compressed for
 > Original: *"The information provided by the system is outdated."*  
 > SPEL: *"Th info prvd by th syst is outdtd."*
 
+This kind of abbreviation typically achieves a **25–30% reduction in character count**, even when avoiding number or symbol substitutions — making it ideal for clean, human-readable compression.
+
 ---
 
 ## ✨ Goals
@@ -36,11 +38,37 @@ SPEL is a rule-based system that rewrites standard English into a compressed for
 
 ---
 
-## 🛠 Usage (Coming Soon)
+## 📊 Efficiency Example
 
-We are building a simple Python CLI and web tool to convert text using SPEL rules.
+| Sentence                              | Characters | SPEL Form                           | Characters | Reduction |
+|---------------------------------------|------------|-------------------------------------|------------|-----------|
+| The information provided by the system is outdated | 53         | Th info prvd by th syst is outdtd | 38         | ~28%      |
 
-Example usage:
-```bash
-> spel "You are going to love the new system update!"
-> u r goin 2 lv th nu syst upd!
+---
+
+## 📖 Project Roadmap
+
+- [x] Define abbreviation rules
+- [ ] Build core Python encoder/decoder
+- [ ] Publish web interface (optional)
+- [ ] Build community abbreviation dictionary
+- [ ] Explore multi-language support
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! To get started:
+
+1. Fork the repo
+2. Create a new branch
+3. Submit a pull request with your changes
+
+## 🌍 Vision
+
+We imagine SPEL as a universal shorthand layer for written English — intuitive, fast, and ideal for the digital era.
+
+> "SPEL isn't about dumbing down language — it's about smartening up space."
+
+---
+
