@@ -4,7 +4,7 @@
 
 ---
 
-## 🔍 What is SPEL?
+## What is SPEL?
 
 SPEL is a rule-based system that rewrites standard English into a compressed form. It combines:
 - Phonetic reduction
@@ -20,25 +20,25 @@ This kind of abbreviation typically achieves a **25–30% reduction in character
 
 ---
 
-## ✨ Goals
+## Goals
 
-- 📝 **Minimize character usage** across messages, code, or data logs.
-- 📱 **Improve communication efficiency** in low-bandwidth or compact interfaces.
-- 🤖 **Enable machine-friendly text** while remaining human-readable.
-- 🌐 **Create a flexible standard** for open-source and global use.
-
----
-
-## 📦 Features
-
-- 🔤 Abbreviation rules for words, phrases, and suffixes
-- 📚 Dictionary of compressed words (common terms and short forms)
-- 🔄 Encoder/Decoder (WIP)
-- 🔧 Modular rule system for easy extensions or language variants
+- **Minimize character usage** across messages, code, or data logs.
+- **Improve communication efficiency** in low-bandwidth or compact interfaces.
+- **Enable machine-friendly text** while remaining human-readable.
+- **Create a flexible standard** for open-source and global use.
 
 ---
 
-## 📊 Efficiency Example
+## Features
+
+- Abbreviation rules for words, phrases, and suffixes
+- Dictionary of compressed words (common terms and short forms)
+- Encoder/Decoder (WIP)
+- Modular rule system for easy extensions or language variants
+
+---
+
+## Efficiency Example
 
 | Sentence                              | Characters | SPEL Form                           | Characters | Reduction |
 |---------------------------------------|------------|-------------------------------------|------------|-----------|
@@ -46,9 +46,9 @@ This kind of abbreviation typically achieves a **25–30% reduction in character
 
 ---
 
-## 📖 Project Roadmap
+## Project Roadmap
 
-- [x] Define abbreviation rules
+- [ ] Define abbreviation rules
 - [ ] Build core Python encoder/decoder
 - [ ] Publish web interface (optional)
 - [ ] Build community abbreviation dictionary
@@ -56,19 +56,10 @@ This kind of abbreviation typically achieves a **25–30% reduction in character
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! To get started:
 
 1. Fork the repo
 2. Create a new branch
 3. Submit a pull request with your changes
-
-## 🌍 Vision
-
-We imagine SPEL as a universal shorthand layer for written English — intuitive, fast, and ideal for the digital era.
-
-> "SPEL isn't about dumbing down language — it's about smartening up space."
-
----
-
